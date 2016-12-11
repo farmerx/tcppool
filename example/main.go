@@ -1,30 +1,3 @@
-# TcpPool [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)]() [![Build Status](http://img.shields.io/travis/fatih/pool.svg?style=flat-square)]()
-
-TcpPool is a thread safe connection pool for net.Conn interface. It can be used to manage and reuse connections.
-
-## Install and Usage
-
-Install the package with:
-
-```bash
-go get github.com/bibinbin/tcppool
-```
-
-Import it with:
-
-```go
-import "github.com/bibinbin/tcppool"
-```
-and use `pool` as the package name inside the code.
-
-```go
-import (
-  pool "github.com/bibinbin/tcppool"
-)
-```
-
-## Example
-```golang
 package main
 
 import (
@@ -73,7 +46,3 @@ func main() {
 	current := p.Len()
 	fmt.Println("len=", current)
 }
-
-
-```
-
