@@ -5,7 +5,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/bibinbin/tcppool"
+	"github.com/farmerx/tcppool"
 )
 
 func main() {
