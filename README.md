@@ -7,19 +7,19 @@ TcpPool is a thread safe connection pool for net.Conn interface. It can be used 
 Install the package with:
 
 ```bash
-go get github.com/bibinbin/tcppool
+go get github.com/farmerx/tcppool
 ```
 
 Import it with:
 
 ```go
-import "github.com/bibinbin/tcppool"
+import "github.com/farmerx/tcppool"
 ```
 and use `pool` as the package name inside the code.
 
 ```go
 import (
-  pool "github.com/bibinbin/tcppool"
+  pool "github.com/farmerx/tcppool"
 )
 ```
 
@@ -32,7 +32,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/bibinbin/tcppool"
+	"github.com/farmerx/tcppool"
 )
 
 func main() {
